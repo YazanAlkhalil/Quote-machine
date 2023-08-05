@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ddd;
+}
+.QuoteBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    width: 40rem;
+    background-color: white;
+    padding: 2rem 5rem ;
+    border-radius: 3px;
+    margin-top: 5%;
+}
+.fa{
+    font-size: 20px;
+    margin: 0 10px;
+}
+.Quote{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+.Quote .QuoteText{
+    margin-bottom: 1rem;
+}
+.btn{
+    padding-bottom: 10px;
+    
+}
